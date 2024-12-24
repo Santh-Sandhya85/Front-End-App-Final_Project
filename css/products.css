@@ -1,0 +1,52 @@
+.header-container {
+    display: flex; /* Flexbox for header layout */
+    justify-content: space-between; /* Space between title and cart */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+}
+
+.cart {
+    position: relative; /* Position relative for the count */
+}
+
+.cart-icon {
+    width: 30px; /* Set width for the cart icon */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the products */
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+}
+
+.product img {
+    width: 150px; /* Set a fixed width for images */
+    height: 150px; /* Set a fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-radius: 5px; /* Optional: Rounded corners for images */
+}
+
+.add-to-cart {
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.add-to-cart:hover {
+    background-color: darkred; /* Darker shade on hover */
+}

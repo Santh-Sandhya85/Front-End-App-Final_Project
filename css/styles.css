@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../images/background.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the columns */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Full height */
+}
+
+.content {
+    display: flex; /* Create two columns */
+    width: 100%;
+    max-width: 1200px; /* Optional: Limit the width */
+}
+
+.left-column {
+    flex: 1; /* Take up equal space */
+    padding: 20px; /* Add padding */
+}
+
+.right-column {
+    flex: 1; /* Take up equal space */
+    padding: 20px; /* Add padding */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Light background for contrast */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.get-started-button {
+    background-color: red; /* Set the background color for the button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline */
+    font-size: 1em; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.welcome-message {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
